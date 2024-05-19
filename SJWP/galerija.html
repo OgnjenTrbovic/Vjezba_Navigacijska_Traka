@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerija</title>
+    <style>
+        body {
+            text-align: center;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        strong {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav {
+            background-color: red;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #800000;
+        }
+
+        .informacije {
+            background-color: #A23F3E;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 22px;
+        }
+
+        .informacije h3 {
+            margin-bottom: 10px;
+        }
+
+        .informacije p {
+            margin: 5px 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galerija</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="navigacijske_trake.html">Početna stranica</a></li>
+        <li><a href="Clanci.html">Članci</a></li>
+        <li><a href="Galerija.html">Galerija</a></li>
+    </ul>
+</nav>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/441528847_933360028797552_6589796515882242708_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kmOQpe63T1UQ7kNvgEzbmaK&_nc_oc=AdjsQ45_oLE9sFhGe2gK2h5oXC_felwAEWm-4vd-8rQv0wqwEbsMWU8cOISU7ojCacs&_nc_ht=scontent-vie1-1.xx&oh=00_AYABHZKu_s-ECMxjhlZ5vTGMii4-umaS_X_Ty2jqyHyJkQ&oe=66503507" alt="Opis slike 1">
+    </div>
+    <div class="gallery-item">
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/442511243_931399485660273_5500454483525824080_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xot8C4r3QwAQ7kNvgFPyvVH&_nc_ht=scontent-vie1-1.xx&oh=00_AYDRBkW1d3WmIhr9sr4YDbAz27LIn1QKBbik_IhSM3sJdA&oe=665020D9" alt="Opis slike 2">
+    </div>
+    <div class="gallery-item">
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/419071436_896490169151205_2241241853672730662_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=I_2ivPg2LkcQ7kNvgF0PrM7&_nc_ht=scontent-vie1-1.xx&oh=00_AYB4OOyyR935uCdy842iktf7X7lihB8oAeg4uIEL2UuyiA&oe=66503A46" alt="Opis slike 3">
+    </div>
+    <div class="gallery-item">
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/419303304_896489825817906_8555592577855058750_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oEQQXbaEpXQQ7kNvgEBAL--&_nc_ht=scontent-vie1-1.xx&oh=00_AYDGaJIHRv5BCs1_u6H0sxTZBA05bCsQ7APQtyJDOEq1iA&oe=665036E8" alt="Opis slike 4">
+    </div>
+    <div class="gallery-item">
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/419567071_896490099151212_7818701411002811361_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u4Qx3njKg4gQ7kNvgGB2j5K&_nc_ht=scontent-vie1-1.xx&oh=00_AYBoWRuoghR6pD0gMegTZX2JNt5zJabumlX-i-l_ymLN8g&oe=665027EC" alt="Opis slike 5">
+    </div>
+</div>
+
+
+<div class="informacije">
+    <h3>Informacije škole</h3>
+    <p>Web stranica: <a href="http://ss-gospodarska-buje.skole.hr">http://ss-gospodarska-buje.skole.hr</a></p>
+    <p>Email: <a href="mailto:skola@ss-gospodarska-buje.skole.hr">skola@ss-gospodarska-buje.skole.hr</a></p>
+    <p>Adresa: Buje, Školski Brijeg 1</p>
+    <p>OIB: 27648687825</p>
+</div>
+
+</body>
+</html>
